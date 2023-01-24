@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+}
+.App {
+	/* text-align: center;
+	width: 70%;
+	margin: 0 auto; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+	background-color: #000;
+}
+.header {
+	color: white;
+	padding: 15px;
+	background-color: purple;
+	display: flex;
+	align-items: center;
+}
+.header > img {
+	height: 50px;
+	margin-right: 10px;
+}
+.header > h4 {
+	margin-right: auto;
+}
+.main {
+	background-color: aqua;
+	padding: 20px;
+}
+.main > form {
+	background-color: blue;
+}
+.formMeme {
+	padding: 5px;
+
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+.img-source {
+	width: 90%;
+}
+.counter {
+	background-color: aqua;
+	width: 20%;
+	padding: 10px;
+	margin: 5px;
+}
+.counter > button {
+	margin-right: 5px;
+}
+.counter > h1 {
+	margin: 0;
+}
+.card {
+	background-color: black;
+	width: 200px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.card > img {
+	height: 70px;
+}
+.card > h3 {
+	color: aliceblue;
+}
+.box {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+.boxes {
+	margin-top: 10px;
+}
+.meme {
+	position: relative;
+	background-color: blueviolet;
+}
+.meme-text {
+	position: absolute;
+
+	width: 80%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 30px;
+	color: aliceblue;
+	font-weight: bold;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+.top {
+	top: 0px;
+}
+.bottom {
+	bottom: 0px;
+}

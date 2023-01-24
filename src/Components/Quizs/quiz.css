@@ -1,0 +1,8 @@
+
+.quiz {
+   min-height: 70vh;
+    background-color: rgb(177, 177, 254);
+    height: 100%;
+    width: 800px;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+.dice-container {
+	background-color: aqua;
+	width: 700px;
+	min-height: 80vh;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 10px 5px rgb(0, 0, 36);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.dice {
+	display: grid;
+	grid-template: auto auto / repeat(5, 1fr);
+	gap: 30px;
+}
+.dice-face {
+	width: 50px;
+	height: 50px;
+	background-color: wheat;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 3px rgb(16, 8, 5);
+}
+.true-dice {
+	background-color: rgb(51, 255, 0);
+}
+.btn-roll {
+	background-color: purple;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid rgb(67, 0, 67);
+	margin-top: 40px;
+}
