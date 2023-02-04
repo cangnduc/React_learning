@@ -13,9 +13,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	
+	flex-direction: column;
 	background-color: #000;
+	
 }
+.App ul li {
+	margin-top: 15px;
+}
+
 .header {
 	color: white;
 	padding: 15px;
@@ -106,4 +111,13 @@ body {
 }
 .bottom {
 	bottom: 0px;
+}
+.get-api {
+	padding: 20px;
+}
+.get-api ul {
+	list-style-type: none;
+}
+.get-api ul li {
+	
 }

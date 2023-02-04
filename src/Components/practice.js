@@ -1,8 +1,8 @@
-import React, { Children } from "react";
+import React from "react";
 export default function Practice() {
 	const [index, setIndex] = React.useState(0);
-	function Button({type, title, href, onClick,Children }) {
-		let Component = type;
+	function Button({ title, href, onClick }) {
+		let Component = "button";
 		let props = {};
 		if (href) {
 			Component = "a";
@@ -17,10 +17,10 @@ export default function Practice() {
 	console.log(index);
 	return (
 		<Button
-            type ='button'
+            
 			title="click me"
 			href="www.google.com"
 			onClick={() => setIndex((pre) => pre + 1)}
-		></Button>
+		/>
 	);
 }
