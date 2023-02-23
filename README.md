@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+Run "npm install" to download deps
 # react_learning
 =======
 # Getting Started with Create React App
