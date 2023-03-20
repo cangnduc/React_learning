@@ -19,7 +19,7 @@ import { react } from "@babel/types";
 import { clear } from "@testing-library/user-event/dist/clear";
 import Register from "./Components/Register";
 function App() {
-	return <Register />;
+	return <TimerID />;
 }
 
 export default App;
